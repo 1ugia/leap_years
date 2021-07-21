@@ -6,20 +6,8 @@ All years divisible by 4 and not by 100 ARE leap years (e.g. 2004, 2008 and 2012
 All years not divisible by 4 are NOT leap years (e.g. 2009, 2010 and 2011 were not leap years)
 ```
 
-## User story
-```
-As a user
-i want to be able to check the year
-and able to see if it's the leap year
-```
-
-Class:
-Leap year
-
-Methods:
-take number
-check the 400th year
-out puts result
+to be able to take the year of the leap,
+and return whether if it is a leap year or not. 
 
 ```
 2.4.1 :001 > require './lib/leap_years.rb'

@@ -1,3 +1,3 @@
-def leapyear?(year)
-  year == 400
-end
+def leap_year?(year)
+  year % 400 == 0
+end 
