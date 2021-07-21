@@ -14,5 +14,9 @@ describe 'leap_year?' do
   it 'should return the 100th year false' do
     expect(leap_year?(1300)).to eq(false)
   end
+  it 'shoud return odd numbers false' do
+    expect(leap_year?(1)).to eq(false)
+  end
   
 end
+ 
