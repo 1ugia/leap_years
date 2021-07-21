@@ -11,9 +11,9 @@ All years divisible by 4 and not by 100 ARE leap years (e.g. 2004, 2008 and 2012
 All years not divisible by 4 are NOT leap years (e.g. 2009, 2010 and 2011 were not leap years)
 ```
 
-### how to run on irb:
+### How to run on irb:
 ```
-2.4.1 :001 > require './lib/leap_years.rb'
+2.4.1 :001 > require './lib/app.rb'
  => true
 2.4.1 :002 > leap_year?(2000)
  => true
@@ -37,6 +37,6 @@ should be able to:
 - Identify every integer's 4th number to be true
 - Identify all other integer's to be false
 
-## Extension Options for future work:
+## Extension Options for future progress:
 - Write a program that takes a start year and an end year and returns an array of all the leap years between.
 - Write a program that when given a year, will return the closest leap year (this could be before or after the given year)
